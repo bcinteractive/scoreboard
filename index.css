@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+h3 {
+    color: #EEEEEE;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    padding: 70px 80px;
+    width: 720px;
+    margin: 0 auto;
+}
+
+.card-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    width: 155px;
+    height: 120px;
+    color: #F94F6D;
+    background-color: #080001;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 130px;
+    font-style: italic;
+    text-shadow: 0 0 15px seashell;
+    
+}
+
+.container-controls {
+    margin-top: 20px;
+}
+
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 26px;
+    width: 70px;
+    height: 70px;    
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    background-color: #1B244A;
+    margin: 5px 5px;
+}
