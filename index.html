@@ -5,7 +5,9 @@
     </head>
     <body>
         <div class="container">
-            <div class="card-team">
+            <h1 class="title">SCOREBOARD</h1>
+            <button id="newgame-btn" onclick="newGame()" class="bttn">New Game</button>
+            <div class="card-team home">
                 <h3>HOME</h3>
                 <h1 id="score-home" class="section-score">99</h1>
                 <div class="container-controls">
@@ -14,7 +16,7 @@
                     <button onclick="addScore('home', 3)">+3</button>
                 </div>
             </div>
-            <div class="card-team">
+            <div class="card-team away">
                 <h3>AWAY</h3>
                 <h1 id="score-guest" class="section-score">69</h1>
                 <div class="container-controls">
@@ -23,8 +25,7 @@
                     <button onclick="addScore('guest', 3)">+3</button>
                 </div>
             </div>
-        </div>
-        <button id="newgame-btn" onclick="newGame()">New Game</button>
+        </div>        
         <script src="index.js"></script>
     </body>
 </html>
