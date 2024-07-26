@@ -2,6 +2,12 @@ body {
     margin: 0;
 }
 
+h1 {
+    color: aquamarine;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
 h3 {
     color: #EEEEEE;
     margin-bottom: 30px;
@@ -9,13 +15,31 @@ h3 {
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-areas: 
+        ".... .... .... .... .... ...."
+        "head head head head head bttn"
+        ".... home home away away ...."
+        ".... .... .... .... .... ....";
+    /* justify-content: space-around; */
     background-color: #1B244A;
     padding: 70px 80px;
     width: 720px;
     margin: 0 auto;
 }
+
+.title {
+    grid-area: head;
+}
+
+.home {
+    grid-area: home;
+}
+
+.away {
+    grid-area: away;
+}
+
 
 .card-team {
     display: flex;
@@ -55,4 +79,5 @@ button {
     border-radius: 4px;
     background-color: #1B244A;
     margin: 5px 5px;
+    grid-area: bttn;
 }
