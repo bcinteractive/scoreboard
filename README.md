@@ -1,5 +1,5 @@
 # scoreboard
-Basketball game scoreboard simple
+A simple basketball game scoreboard.
 
 Made with pure javascript and a little bit of CSS.
 
